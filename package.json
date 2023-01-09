@@ -1,0 +1,16 @@
+{
+  "name": "testing",
+  "private": "true",
+  "workspaces": ["packages/*"],
+  "version": "0.0.1",
+  "description": "testing",
+  "scripts": {
+    "build:app": "yarn workspace components build",
+    "start:app": "yarn workspace components start",
+    "build:components": "yarn workspace app build"
+  },
+  "main": "index.js",
+  "repository": "-",
+  "author": "Kashyap Gohil <kashyapgohil476@gmail.com>",
+  "license": "MIT"
+}
